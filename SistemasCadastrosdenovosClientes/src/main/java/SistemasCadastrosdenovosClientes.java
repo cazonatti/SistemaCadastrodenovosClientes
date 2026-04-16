@@ -1,12 +1,11 @@
 
-
-
-// Pode manter o nome do seu pacote
-
+//nome do seu pacote
 import java.util.ArrayList;
 import java.util.Scanner;
 //ler o cadastro
+
 public class SistemasCadastrosdenovosClientes {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> clientes = new ArrayList<>();
@@ -30,6 +29,6 @@ public class SistemasCadastrosdenovosClientes {
             }
         }
         System.out.println("Sistema encerrado.");
-        scanner.close();
+
     }
 }
