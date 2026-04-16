@@ -5,7 +5,7 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//ler o cadastro
 public class SistemasCadastrosdenovosClientes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,7 +14,9 @@ public class SistemasCadastrosdenovosClientes {
 
         while (!opcao.equals("3")) {
             System.out.println("\n--- MENU ---");
+            //atributo menu
             System.out.println("1. Adicionar Cliente");
+            //adicao de cliente
             System.out.println("2. Listar Clientes");
             System.out.println("3. Sair");
             System.out.print("Escolha: ");
